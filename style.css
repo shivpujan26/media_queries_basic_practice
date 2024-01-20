@@ -1,0 +1,32 @@
+.box{
+    background-color: red;
+}
+@media (min-width:319px) and (max-width:480px){
+    .box{
+        background-color: blue;
+    }
+}
+
+@media (min-width:481px) and (max-width:900px){
+    .box{
+        background-color:green;
+    }
+}
+
+@media (min-width:901px) and (max-width:1200px){
+    .box{
+        background-color: white;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1600px){
+    .box{
+        background-color:yellow;
+    }
+}
+
+@media (min-width:1600px){
+    .box{
+        background-color: burlywood;
+    }
+}
